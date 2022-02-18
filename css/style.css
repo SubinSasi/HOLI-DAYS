@@ -211,7 +211,7 @@ p {
 }
 @media screen and (max-width: 480px) {
   #fh5co-header {
-    padding-bottom: 5em !important;
+    padding-bottom: 2em !important;
   }
 }
 #fh5co-header .fh5co-nav-toggle {

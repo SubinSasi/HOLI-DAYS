@@ -201,19 +201,8 @@ input[type="search"] {
 }
 
 
-// Form groups
-//
-// Designed to help with the organization and spacing of vertical forms. For
-// horizontal forms, use the predefined grid classes.
-
-.form-group {
-  margin-bottom: $form-group-margin-bottom;
-}
-
 
 // Checkboxes and radios
-//
-// Indent the labels to position radios/checkboxes as hanging controls.
 
 .radio,
 .checkbox {
@@ -469,11 +458,7 @@ input[type="checkbox"] {
   // Kick in the inline
   @media (min-width: $screen-sm-min) {
     // Inline-block all the things for "inline"
-    .form-group {
-      display: inline-block;
-      margin-bottom: 0;
-      vertical-align: middle;
-    }
+
 
     // In navbar-form, allow folks to *not* use `.form-group`
     .form-control {
@@ -565,10 +550,7 @@ input[type="checkbox"] {
     min-height: ($line-height-computed + ($padding-base-vertical + 1));
   }
 
-  // Make form groups behave like rows
-  .form-group {
-    @include make-row;
-  }
+  
 
   // Reset spacing and right align labels, but scope to media queries so that
   // labels on narrow viewports stack the same as a default form example.

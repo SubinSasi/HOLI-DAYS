@@ -3230,9 +3230,6 @@ input[type="search"] {
     line-height: 46px;
   }
 }
-.form-group {
-  margin-bottom: 15px;
-}
 
 .radio,
 .checkbox {
@@ -5735,11 +5732,6 @@ a.thumbnail.active {
 
 .media-bottom {
   vertical-align: bottom;
-}
-
-.media-heading {
-  margin-top: 0;
-  margin-bottom: 5px;
 }
 
 .media-list {

@@ -271,20 +271,6 @@ p {
 	}
 }
 
-// Form Input Field
-.form-control {
-	box-shadow: none;
-	background: transparent;
-	border: 2px solid rgba(0, 0, 0, 0.1);
-	height: 54px;
-	font-size: 18px;
-	font-weight: 300;
-  	&:active, &:focus {
-  		outline: none;
-		box-shadow: none;
-		border-color: $brand-primary;
-  }
-}
 
 #fh5co-header {
 	padding: 3em 3em;
